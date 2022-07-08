@@ -1,0 +1,41 @@
+-------->Introduction To CSS
+        ----> CSS Stands for Cascading Style Sheet.
+        ----> CSS is the language we use to style an HTML document.
+        ----> CSS describes how HTML elements should be displayed.
+        Example basic CSS structure{
+            <code>
+            
+                <style>
+                
+                    body {
+                    background-color: lightblue;
+                    }
+
+                    h1 {
+                    color: white;
+                    text-align: center;
+                    }
+
+                    p {
+                    font-family: verdana;
+                    font-size: 20px;
+                    }
+                
+                </style>
+
+            </code>
+
+        }
+
+
+--------> Selectors In CSS {
+                -->Id Selector("#")----> U can select element by his id. also ids are Unique.
+
+                -->Class Selector(".")----> U can select element by using his classname.classes are not unique U can style multiple element by giveing them same class.
+
+                -->Element Selector("Ex. p,h1,button,etc...")---> U can select element by there tagname.but it will be select universaly that element.
+}
+
+
+
+-------->For Styling Syntax You can Visit ("https://websitesetup.org/wp-content/uploads/2019/08/CSS-CHEAT-SHEET-p1-2019-update.png")
