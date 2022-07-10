@@ -8,8 +8,10 @@
     <title>Chess Board</title>
     <style>
         table {
+           
             border: 3px solid rgb(0, 0, 0);
             margin-top: 10%;
+           
         }
 
         table:hover {
@@ -17,10 +19,18 @@
         }
 
         td {
-            height: 75px;
-            width: 75px;
+            width: 50px;
+            height: 50px;
             border: solid rgb(0, 0, 0);
         }
+
+        @media only screen and (max-width: 500px) {
+            td {
+            width: 25px;
+            height: 25px;
+            
+        }
+}
 
         .even :nth-child(even) {
             background: #000;
