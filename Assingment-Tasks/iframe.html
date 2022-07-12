@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iframe</title>
     <style>
+  #frames{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    width: 80%;
+    margin: auto;
+    gap: 40px;
+  }
 
+  #frames>iframe{
+    height: 400px;
+    width: 500px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    #frames{
+    display: grid;
+    grid-template-columns: 500px;
+    width: 100%;
+    margin: auto;
+    gap: 40px;
+  }
+
+  #frames>iframe{
+    height: 400px;
+    width: 100%;
+  }
+}
     </style>
 </head>
+
 <body>
     <div id="frames">
-<iframe src="https://www.google.com" frameborder="0"></iframe>
-<iframe src="https://www.youtube.com" frameborder="0"></iframe>
-<iframe src="https://www.w3schools.com" frameborder="0"></iframe>
-<iframe src="" frameborder="0"></iframe>
+        <iframe src="/Assingment-Tasks/Background.html" frameborder="2"></iframe>
+        <iframe src="/Assingment-Tasks/chess-table.html" frameborder="2"></iframe>
+        <iframe src="/index.html" frameborder="2"></iframe>
+        <iframe src="https://www.hackerrank.com/" frameborder="2"></iframe>
     </div>
 </body>
+
 </html>
