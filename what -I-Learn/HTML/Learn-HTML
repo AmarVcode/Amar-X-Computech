@@ -78,4 +78,13 @@
                      -> iframe{
                         --> for rendering ather site on our site we use iframe tag.
                      }
+                     -> sub{
+                        --> Sub tag is for writing text below the letter.
+                     }
+                     -> sup{
+                        --> sup tag is for writing text above the letter. 
+                     }
+                     -> strike{
+                        --> cancelation effect or overline effect in text.
+                     }
 
