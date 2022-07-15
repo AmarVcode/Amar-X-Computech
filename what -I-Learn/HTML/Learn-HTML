@@ -87,4 +87,11 @@
                      -> strike{
                         --> cancelation effect or overline effect in text.
                      }
-
+                     -> marquee{
+                        --> for moving text.
+                        --> direction: Right, left, up, and down.
+                     }
+                     -> a {
+                        --> anchor text is for linking other website.
+                        --> anchor tag come with attribute called href.
+                     }
