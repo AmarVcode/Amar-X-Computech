@@ -4,7 +4,16 @@
     width: 300px;
     flex-wrap: wrap;
     border-radius: 10px;
+    background:linear-gradient(140deg,cyan,white,orange,red);
 }
+
+body{
+    padding-top: 150px;
+    background:linear-gradient(140deg,cyan,white,orange,red);
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+}
+
 
 #maindiv>h2{
 color: maroon;
@@ -49,4 +58,5 @@ height: fit-content;
     margin: auto;
     padding: 40px;
     border-radius: 10px;
+    background:linear-gradient(140deg,cyan,white,orange,red);
 }
