@@ -54,9 +54,10 @@ height: fit-content;
     display: flex;
     gap: 40px;
     border: 2px solid grey;
-    width: fit-content;
+    max-width: fit-content;
     margin: auto;
     padding: 40px;
     border-radius: 10px;
     background:linear-gradient(140deg,cyan,white,orange,red);
+    flex-wrap: wrap;
 }

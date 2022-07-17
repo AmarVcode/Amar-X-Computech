@@ -15,7 +15,7 @@
   #frames{
     display: grid;
     grid-template-columns: 500px 500px;
-    width: 80%;
+    max-width: fit-content;
     margin: auto;
     gap: 40px;
   }
@@ -28,14 +28,14 @@
   @media only screen and (max-width: 800px) {
     #frames{
     display: grid;
-    grid-template-columns: 500px;
+    grid-template-columns: 300px;
     width: 100%;
     margin: auto;
     gap: 40px;
   }
 
   #frames>iframe{
-    height: 400px;
+    height: 300px;
     width: 100%;
   }
 
