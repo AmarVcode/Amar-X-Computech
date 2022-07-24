@@ -76,7 +76,7 @@
                         --> by using tr tag, th tag and td tag.
                      }
                      -> iframe{
-                        --> for rendering ather site on our site we use iframe tag.
+                        --> for rendering other site on our site we use iframe tag.
                      }
                      -> sub{
                         --> Sub tag is for writing text below the letter.
@@ -94,4 +94,10 @@
                      -> a {
                         --> anchor text is for linking other website.
                         --> anchor tag come with attribute called href.
+                     }
+                     -> frameset{
+                        --> frameset is for adding frames in single page.
+                        --> frameset is supported in html5.
+                        --> we can not write frameset element in under body.
+                        --> we can use instead iframe tag. 
                      }
